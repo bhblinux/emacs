@@ -1,2 +1,0 @@
-;; 字体设置
-  (load "~/.emacs.d/.init/font-settings")
