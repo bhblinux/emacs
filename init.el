@@ -2,17 +2,17 @@
 (when (version< emacs-version "27.0")
   (package-initialize))
 ;; 字体设置
-(load "~/.emacs.d/.init/font-settings")
+(load "~/.emacs.d/init/font-settings")
 
 ;;包管理。
-(load "~/.emacs.d/.init/packages")
+(load "~/.emacs.d/init/packages")
 ;; 一般的设置，耗时：0.4 s。
-(load "~/.emacs.d/.init/common-settings")
+(load "~/.emacs.d/init/common-settings")
 ;; 一些函数及键绑定，耗时：0.1 s。
-(load "~/.emacs.d/.init/some-functions")
+(load "~/.emacs.d/init/some-functions")
 
 ;; 键绑定，耗时：0.2 s。
-(load "~/.emacs.d/.init/my-key-bindings")
+(load "~/.emacs.d/init/my-key-bindings")
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
