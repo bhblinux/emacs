@@ -14,6 +14,27 @@
 ;; 键绑定，耗时：0.2 s。
 (load "~/.emacs.d/.init/my-key-bindings")
 
+
+
+ (set-keyboard-coding-system 'utf-8)
+
+(set-clipboard-coding-system 'utf-8)
+
+ (set-terminal-coding-system 'utf-8)
+
+ (set-buffer-file-coding-system 'utf-8)
+
+ (set-selection-coding-system 'utf-8)
+ (modify-coding-system-alist 'process "*" 'utf-8)
+ (setq default-process-coding-system '(utf-8 . utf-8))
+ (setq-default pathname-coding-system 'utf-8)
+(setq revert-buffer-with-coding-system 'utf-8)
+(set-buffer-file-coding-system 'utf-8)
+
+
+
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
